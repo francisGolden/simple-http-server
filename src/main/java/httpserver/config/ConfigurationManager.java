@@ -59,7 +59,7 @@ public class ConfigurationManager {
         } catch (JsonProcessingException e) {
             throw new HttpConfigurationException("Error parsing the configuration file, internal", e);
         }
-        
+
         fileReader.close();
     }
 
